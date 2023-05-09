@@ -1,0 +1,7 @@
+---
+web_user: web
+web_group: web
+www_dir: '/home/{{ web_user }}/www/'
+www_files:
+  - index.html
+websrv_version: 1.0
